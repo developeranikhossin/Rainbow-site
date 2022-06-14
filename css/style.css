@@ -166,7 +166,19 @@ label {
 	font-size: 14px;
 	opacity: 1;
 }
-
+#scrollUp {
+    bottom: 20px;
+    right: 19px;
+    background: #50ba1c;
+    position: absolute;
+    height: 50px;
+    color: #fff;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+}
 
 /* header-area-start */
 
@@ -179,13 +191,13 @@ label {
     padding: 18px;
 }
 .header-right a h1 {
-    font-size: 35px;
+    font-size: 32px;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     color: #6d6e71;
-    margin-top: 37px;
-    margin-left: -31px;
+    margin-top: 38px;
+    margin-left: -12px;
     transform: rotateY(-35deg);
 }
 
@@ -274,7 +286,7 @@ button.slick-prev.slick-arrow {
     margin-right: 22px;
 }
 .menu-social-icon a {
-    color: blue;
+    color: #1b6eae;
     margin-right: 15px;
     font-size: 20px;
 }
@@ -390,6 +402,174 @@ button.slick-prev.slick-arrow {
 }
 
 /* footer-area-end */
+
+/* about-section-start */
+
+.about-contant{}
+.about-contant-1{}
+.about-contant-1 h1 {
+    font-size: 22px;
+}
+.about-contant-1 p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.about-contant-1 span {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.about-contant-2{}
+.about-contant-2 h1 {
+    font-size: 22px;
+    margin-top: 13px;
+}
+
+.about-contant-2 p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+.about-contant-3{}
+
+.about-contant-3 h1 {
+    font-size: 22px;
+    margin-top: 13px;
+}
+
+.about-contant-3 p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.about-text{}
+.about-text img{}
+.about-text h4{}
+.about-text-bottom{}
+.about-text-bottom p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.about-text-bottom h3{
+    font-size: 22px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+.about-single-img a img {
+    width: 100%;
+    margin-bottom: 18px;
+}
+.about-single-img-1 a img {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+
+/* about-section-end */
+
+
+/* product-area-start  */
+
+
+.product-img img {
+    width: 67%;
+}
+
+.single-product {
+    margin-bottom: 15px;
+}
+.single-product h1 {
+    color: #6d6e71;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.single-product p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+.single-product-1 {
+    margin-bottom: 15px;
+}
+.single-product-1 h1 {
+    color: #6d6e71;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.single-product-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+.single-product-2 {
+    margin-bottom: 15px;
+}
+.single-product-2 h1 {
+    color: #6d6e71;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.single-product-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+.single-product-3 {
+    margin-bottom: 15px;
+}
+.single-product-3 h1 {
+    color: #6d6e71;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.single-product-3 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+.single-product-4 {
+    margin-bottom: 15px;
+}
+.single-product-4 h1 {
+    color: #6d6e71;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.single-product-4 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+.single-product-5 {
+    margin-bottom: 15px;
+}
+.single-product-5 h1 {
+    color: #6d6e71;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.single-product-5 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+
+
+/* product-area-end  */
+
+
 
 
 
