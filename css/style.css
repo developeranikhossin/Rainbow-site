@@ -1,0 +1,395 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer 
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+ body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #2B96CC;
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #313131;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #7e7e7e;
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-moz-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+
+
+/* header-area-start */
+
+.header-area {
+	background: #f5f7f4;
+}
+.header-logo{}
+.header-logo img {
+    width: 160%;
+    padding: 18px;
+}
+.header-right a h1 {
+    font-size: 35px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #6d6e71;
+    margin-top: 37px;
+    margin-left: -31px;
+    transform: rotateY(-35deg);
+}
+
+
+/* header-area-start */
+
+/* slider-area-start */
+
+.single-slider{
+	min-height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+button.slick-next.slick-arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+button.slick-prev.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 9;
+}
+
+/* slider-area-end */
+
+
+/* features-area-start */
+
+
+.features-area{
+	
+}
+.features-img {
+    margin-top: 60px;
+	margin-bottom: 30px;
+}
+.features-img img{
+	width: 100%;
+}
+
+
+/* features-area-end */
+
+/* menu-area-start */
+
+/* .menu-area {
+    background: #f3f5ed;
+} */
+.menu-content h1 {
+    color: #6d6e71;
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    position: relative;
+}
+.menu-content h1::before {
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+    content: "";
+    position: absolute;
+    bottom: -18px;
+}
+.menu-content p {
+    color: #6d6e71;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    line-height: 33px;
+	position: relative;
+}
+.menu-content p::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #ddd;
+    bottom: -38px;
+}
+
+.menu-social-icon {
+    margin-top: 45px;
+    margin-right: 22px;
+}
+.menu-social-icon a {
+    color: blue;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.menu-social-icon a i{}
+.main-menu {
+    border: 1px solid #ddd;
+    box-shadow: 0px 15px 30px 0px rgb(170, 120, 120,0.9);
+    padding: 40px 40px 70px 40px;
+}
+
+/* .main-menu {
+    border: 1px solid #642222;
+    box-shadow: 0px 15px 30px 0px rgb(149 106 106 / 90%);
+    padding: 40px 30px;
+    background: #76d989;
+} */
+.main-menu h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #6d6e71;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.main-menu ul{}
+.main-menu ul li{}
+.main-menu ul li:first-child a{
+	border-top: 2px solid #ddd;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 30px;
+    color: #333;
+    font-weight: 400;
+    font-family: 'Poppins';
+	transition: .3s;
+}
+.main-menu ul li:hover a{
+	background: #1696e7;
+	color: #fff;
+}
+.main-menu ul li a i{}
+
+
+/* menu-area-end */
+
+/* footer-area-start */
+
+
+.footer-area{
+	background: #1b6eae;
+	height: 300px;
+}
+.footer-left{}
+.logo{}
+.logo a img {
+    width: 45%;
+    margin-top: 30px;
+}
+
+.footer-content {
+    margin-top: 35px;
+}
+.footer-content h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.footer-content ul{}
+.footer-content ul li {
+    margin-bottom: 4px;
+}
+.footer-content ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ddd;
+}
+
+.footer-text{}
+.footer-text h2{
+	margin-top: 35px;
+	color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.footer-text a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #784646;
+    margin-right: 10px;
+    padding: 12px 14px;
+    background: #ececec;
+    border-radius: 30px;
+	transition: .3s;
+}
+.footer-text a:hover{
+	color: #222;
+    background: #7be916;
+}
+.footer-text a i{}
+
+.footer-copy-right-area{}
+.footer-copy-right-area p {
+    color: #ddd;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    padding-top: 14px;
+}
+
+/* footer-area-end */
+
+
+
