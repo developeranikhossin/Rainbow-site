@@ -360,7 +360,9 @@ button.slick-prev.slick-arrow {
 }
 .footer-content ul{}
 .footer-content ul li {
-    margin-bottom: 4px;
+    margin-bottom: 10px;
+    float: left;
+    width: 34%;
 }
 .footer-content ul li a {
     text-decoration: none;
@@ -368,7 +370,11 @@ button.slick-prev.slick-arrow {
     font-weight: 600;
     color: #ddd;
 }
-
+.footer-content ul li ul .ul{
+    
+}
+.footer-content ul li ul li{}
+.footer-content ul li ul li a{}
 .footer-text{}
 .footer-text h2{
 	margin-top: 35px;
