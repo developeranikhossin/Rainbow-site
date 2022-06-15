@@ -444,15 +444,23 @@ button.slick-prev.slick-arrow {
 }
 .about-text{}
 .about-text img{}
-.about-text h4{}
+.about-text h1{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    line-height: 35px;
+}
 .about-text-bottom{}
 .about-text-bottom p{
     font-size: 14px;
     line-height: 22px;
 }
-.about-text-bottom h3{
+.about-text-bottom h3 {
     font-size: 22px;
     margin-top: 13px;
+    line-height: 35px;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 .about-single-img a img {
@@ -568,6 +576,77 @@ button.slick-prev.slick-arrow {
 
 
 /* product-area-end  */
+
+
+
+/* contact-area-start  */
+
+.contact-form{}
+form{}
+.submit-button{}
+.reset-buttom{}
+
+/* contact-area-end */
+.google-map{}
+.google-map h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.input-name {
+    padding: 10px 500px 10px 15px;
+    display: block;
+    background: #ddd;
+}
+.input-textarea{
+    padding: 10px 500px 50px 15px;
+    display: block;
+    background: #ddd;
+}
+.submit-botton{}
+.reset-bottom {
+    margin-left: 573px;
+}
+
+.address-area{}
+.address-area h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.address-area h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.address-area h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 400;
+}
+.address-area p {
+    color: #333;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-bottom: 5px;
+}
+.address-area p a{}
+
+/* contact-area-start  */
+
+/* Gallery-area-start  */
+
+.gallery-img{
+    margin-bottom: 15px;
+}
+.gallery-img a img{
+    width: 100%;
+}
+
+/* Gallery-area-end  */
 
 
 
